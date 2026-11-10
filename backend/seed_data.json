@@ -1,0 +1,1170 @@
+[
+  {
+    "model": "api.user",
+    "pk": 1,
+    "fields": {
+      "username": "demo",
+      "email": "demo@example.com",
+      "first_name": "Jamie",
+      "last_name": "Carter",
+      "password": "pbkdf2_sha256$1200000$TizFFMJyefddsb7d605YRT$vOQor1A9hxQccgVBF9A5akelTKts/x/8UYGmQSz3ldQ=",
+      "is_active": true,
+      "is_staff": false,
+      "role": "patient",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 2,
+    "fields": {
+      "username": "dr.patel",
+      "email": "anita.patel@brightwayclinic.com",
+      "first_name": "Anita",
+      "last_name": "Patel",
+      "password": "pbkdf2_sha256$260000$fakehash1$abc123",
+      "is_active": true,
+      "is_staff": true,
+      "role": "doctor",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 3,
+    "fields": {
+      "username": "dr.nguyen",
+      "email": "marcus.nguyen@brightwayclinic.com",
+      "first_name": "Marcus",
+      "last_name": "Nguyen",
+      "password": "pbkdf2_sha256$260000$fakehash2$def456",
+      "is_active": true,
+      "is_staff": true,
+      "role": "doctor",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 4,
+    "fields": {
+      "username": "dr.okafor",
+      "email": "olivia.okafor@brightwayclinic.com",
+      "first_name": "Olivia",
+      "last_name": "Okafor",
+      "password": "pbkdf2_sha256$260000$fakehash3$ghi789",
+      "is_active": true,
+      "is_staff": true,
+      "role": "doctor",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 5,
+    "fields": {
+      "username": "dr.reyes",
+      "email": "samuel.reyes@brightwayclinic.com",
+      "first_name": "Samuel",
+      "last_name": "Reyes",
+      "password": "pbkdf2_sha256$260000$fakehash4$jkl012",
+      "is_active": true,
+      "is_staff": true,
+      "role": "doctor",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 6,
+    "fields": {
+      "username": "dr.sharma",
+      "email": "priya.sharma@brightwayclinic.com",
+      "first_name": "Priya",
+      "last_name": "Sharma",
+      "password": "pbkdf2_sha256$260000$fakehash5$mno345",
+      "is_active": true,
+      "is_staff": true,
+      "role": "doctor",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 7,
+    "fields": {
+      "username": "dr.walsh",
+      "email": "ethan.walsh@brightwayclinic.com",
+      "first_name": "Ethan",
+      "last_name": "Walsh",
+      "password": "pbkdf2_sha256$260000$fakehash6$pqr678",
+      "is_active": true,
+      "is_staff": true,
+      "role": "doctor",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 8,
+    "fields": {
+      "username": "dr.haidari",
+      "email": "fatima.haidari@brightwayclinic.com",
+      "first_name": "Fatima",
+      "last_name": "Haidari",
+      "password": "pbkdf2_sha256$260000$fakehash7$stu901",
+      "is_active": true,
+      "is_staff": true,
+      "role": "doctor",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 9,
+    "fields": {
+      "username": "dr.kim",
+      "email": "daniel.kim@brightwayclinic.com",
+      "first_name": "Daniel",
+      "last_name": "Kim",
+      "password": "pbkdf2_sha256$260000$fakehash8$vwx234",
+      "is_active": true,
+      "is_staff": true,
+      "role": "doctor",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 10,
+    "fields": {
+      "username": "jordan.martinez",
+      "email": "jordan.martinez@gmail.com",
+      "first_name": "Jordan",
+      "last_name": "Martinez",
+      "password": "pbkdf2_sha256$260000$fakehash9$yz1234",
+      "is_active": true,
+      "is_staff": false,
+      "role": "patient",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 11,
+    "fields": {
+      "username": "sophia.lee",
+      "email": "sophia.lee@gmail.com",
+      "first_name": "Sophia",
+      "last_name": "Lee",
+      "password": "pbkdf2_sha256$260000$fakehash10$ab5678",
+      "is_active": true,
+      "is_staff": false,
+      "role": "patient",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 12,
+    "fields": {
+      "username": "miguel.santos",
+      "email": "miguel.santos@gmail.com",
+      "first_name": "Miguel",
+      "last_name": "Santos",
+      "password": "pbkdf2_sha256$260000$fakehash11$cd9012",
+      "is_active": true,
+      "is_staff": false,
+      "role": "patient",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 13,
+    "fields": {
+      "username": "hannah.obrien",
+      "email": "hannah.obrien@gmail.com",
+      "first_name": "Hannah",
+      "last_name": "O'Brien",
+      "password": "pbkdf2_sha256$260000$fakehash12$ef3456",
+      "is_active": true,
+      "is_staff": false,
+      "role": "patient",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 14,
+    "fields": {
+      "username": "derek.wallace",
+      "email": "derek.wallace@gmail.com",
+      "first_name": "Derek",
+      "last_name": "Wallace",
+      "password": "pbkdf2_sha256$260000$fakehash13$gh7890",
+      "is_active": true,
+      "is_staff": false,
+      "role": "patient",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 15,
+    "fields": {
+      "username": "natalie.kim",
+      "email": "natalie.kim@gmail.com",
+      "first_name": "Natalie",
+      "last_name": "Kim",
+      "password": "pbkdf2_sha256$260000$fakehash14$ij1234",
+      "is_active": true,
+      "is_staff": false,
+      "role": "patient",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 16,
+    "fields": {
+      "username": "andre.dubois",
+      "email": "andre.dubois@gmail.com",
+      "first_name": "Andre",
+      "last_name": "Dubois",
+      "password": "pbkdf2_sha256$260000$fakehash15$kl5678",
+      "is_active": true,
+      "is_staff": false,
+      "role": "patient",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 17,
+    "fields": {
+      "username": "grace.thompson",
+      "email": "grace.thompson@brightwayclinic.com",
+      "first_name": "Grace",
+      "last_name": "Thompson",
+      "password": "pbkdf2_sha256$260000$fakehash16$mn9012",
+      "is_active": true,
+      "is_staff": true,
+      "role": "receptionist",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 18,
+    "fields": {
+      "username": "oscar.delgado",
+      "email": "oscar.delgado@brightwayclinic.com",
+      "first_name": "Oscar",
+      "last_name": "Delgado",
+      "password": "pbkdf2_sha256$260000$fakehash17$op3456",
+      "is_active": true,
+      "is_staff": true,
+      "role": "receptionist",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.doctorprofile",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "specialty": "Family Medicine",
+      "bio": "Board-certified family physician focused on preventive care and chronic disease management.",
+      "photo": "/img/doctor_profiles/doctorprofile-1.jpg",
+      "years_experience": 14,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.doctorprofile",
+    "pk": 2,
+    "fields": {
+      "user": 3,
+      "specialty": "Cardiology",
+      "bio": "Interventional cardiologist specializing in heart rhythm disorders and stress testing.",
+      "photo": "/img/doctor_profiles/doctorprofile-2.jpg",
+      "years_experience": 19,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.doctorprofile",
+    "pk": 3,
+    "fields": {
+      "user": 4,
+      "specialty": "Dermatology",
+      "bio": "Treats acne, eczema, and skin cancer screening with a focus on patient comfort.",
+      "photo": "/img/doctor_profiles/doctorprofile-3.jpg",
+      "years_experience": 11,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.doctorprofile",
+    "pk": 4,
+    "fields": {
+      "user": 5,
+      "specialty": "Pediatrics",
+      "bio": "Pediatrician dedicated to childhood wellness visits and vaccination schedules.",
+      "photo": "/img/doctor_profiles/doctorprofile-4.jpg",
+      "years_experience": 9,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.doctorprofile",
+    "pk": 5,
+    "fields": {
+      "user": 6,
+      "specialty": "Orthopedic Surgery",
+      "bio": "Specializes in sports injuries, joint replacement, and fracture care.",
+      "photo": "/img/doctor_profiles/doctorprofile-5.jpg",
+      "years_experience": 16,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.doctorprofile",
+    "pk": 6,
+    "fields": {
+      "user": 7,
+      "specialty": "Psychiatry",
+      "bio": "Provides counseling and medication management for anxiety and depression.",
+      "photo": "/img/doctor_profiles/doctorprofile-6.jpg",
+      "years_experience": 13,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.doctorprofile",
+    "pk": 7,
+    "fields": {
+      "user": 8,
+      "specialty": "Endocrinology",
+      "bio": "Focuses on diabetes, thyroid disorders, and hormonal health.",
+      "photo": "/img/doctor_profiles/doctorprofile-7.jpg",
+      "years_experience": 17,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.doctorprofile",
+    "pk": 8,
+    "fields": {
+      "user": 9,
+      "specialty": "Gastroenterology",
+      "bio": "Expert in digestive health, colonoscopies, and GERD treatment.",
+      "photo": "/img/doctor_profiles/doctorprofile-8.jpg",
+      "years_experience": 12,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.patientprofile",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "date_of_birth": "1990-04-12",
+      "phone": "555-201-3344",
+      "address": "482 Maple Street, Springfield",
+      "insurance_provider": "BlueCross BlueShield",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.patientprofile",
+    "pk": 2,
+    "fields": {
+      "user": 10,
+      "date_of_birth": "1985-11-02",
+      "phone": "555-304-7781",
+      "address": "120 Oakridge Ave, Springfield",
+      "insurance_provider": "Aetna",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.patientprofile",
+    "pk": 3,
+    "fields": {
+      "user": 11,
+      "date_of_birth": "1993-06-18",
+      "phone": "555-440-9921",
+      "address": "76 Birchwood Lane, Springfield",
+      "insurance_provider": "UnitedHealthcare",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.patientprofile",
+    "pk": 4,
+    "fields": {
+      "user": 12,
+      "date_of_birth": "1978-02-27",
+      "phone": "555-552-6610",
+      "address": "309 Elm Street, Springfield",
+      "insurance_provider": "Cigna",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.patientprofile",
+    "pk": 5,
+    "fields": {
+      "user": 13,
+      "date_of_birth": "2001-09-05",
+      "phone": "555-663-1123",
+      "address": "18 Willow Court, Springfield",
+      "insurance_provider": "Kaiser Permanente",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.patientprofile",
+    "pk": 6,
+    "fields": {
+      "user": 14,
+      "date_of_birth": "1966-12-30",
+      "phone": "555-774-2287",
+      "address": "55 Chestnut Drive, Springfield",
+      "insurance_provider": "Medicare",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.patientprofile",
+    "pk": 7,
+    "fields": {
+      "user": 15,
+      "date_of_birth": "1988-07-21",
+      "phone": "555-885-5567",
+      "address": "910 Pinehill Road, Springfield",
+      "insurance_provider": "BlueCross BlueShield",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.patientprofile",
+    "pk": 8,
+    "fields": {
+      "user": 16,
+      "date_of_birth": "1995-03-14",
+      "phone": "555-996-8812",
+      "address": "42 Sycamore Blvd, Springfield",
+      "insurance_provider": "Aetna",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 1,
+    "fields": {
+      "name": "Annual Physical Exam",
+      "description": "Comprehensive yearly checkup including bloodwork and vitals review.",
+      "duration_minutes": 30,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 2,
+    "fields": {
+      "name": "Pediatric Checkup",
+      "description": "Routine wellness visit for infants and children with growth tracking.",
+      "duration_minutes": 20,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 3,
+    "fields": {
+      "name": "Dermatology Consultation",
+      "description": "Skin evaluation for rashes, moles, and acne treatment planning.",
+      "duration_minutes": 30,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 4,
+    "fields": {
+      "name": "Cardiac Stress Test",
+      "description": "Monitored exercise test to assess heart function under exertion.",
+      "duration_minutes": 45,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 5,
+    "fields": {
+      "name": "Flu Vaccination",
+      "description": "Seasonal influenza vaccine administration with brief screening.",
+      "duration_minutes": 15,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 6,
+    "fields": {
+      "name": "Orthopedic Evaluation",
+      "description": "Assessment of joint pain, mobility issues, or sports injuries.",
+      "duration_minutes": 40,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 7,
+    "fields": {
+      "name": "Mental Health Counseling",
+      "description": "Confidential session addressing anxiety, stress, or mood concerns.",
+      "duration_minutes": 50,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.service",
+    "pk": 8,
+    "fields": {
+      "name": "Diabetes Management Consultation",
+      "description": "Review of blood sugar trends, medication, and dietary planning.",
+      "duration_minutes": 30,
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.clinichour",
+    "pk": 1,
+    "fields": {
+      "day_of_week": "monday",
+      "open_time": "08:00:00",
+      "close_time": "18:00:00",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.clinichour",
+    "pk": 2,
+    "fields": {
+      "day_of_week": "tuesday",
+      "open_time": "08:00:00",
+      "close_time": "18:00:00",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.clinichour",
+    "pk": 3,
+    "fields": {
+      "day_of_week": "wednesday",
+      "open_time": "08:00:00",
+      "close_time": "18:00:00",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.clinichour",
+    "pk": 4,
+    "fields": {
+      "day_of_week": "thursday",
+      "open_time": "08:00:00",
+      "close_time": "18:00:00",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.clinichour",
+    "pk": 5,
+    "fields": {
+      "day_of_week": "friday",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.clinichour",
+    "pk": 6,
+    "fields": {
+      "day_of_week": "saturday",
+      "open_time": "09:00:00",
+      "close_time": "13:00:00",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.clinichour",
+    "pk": 7,
+    "fields": {
+      "day_of_week": "sunday",
+      "open_time": "00:00:00",
+      "close_time": "00:00:00",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.clinichour",
+    "pk": 8,
+    "fields": {
+      "day_of_week": "saturday",
+      "open_time": "14:00:00",
+      "close_time": "16:00:00",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.appointment",
+    "pk": 1,
+    "fields": {
+      "patient": 1,
+      "doctor": 2,
+      "scheduled_at": "2024-06-10T09:30:00Z",
+      "status": "confirmed",
+      "reason": "Annual physical and bloodwork review",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.appointment",
+    "pk": 2,
+    "fields": {
+      "patient": 1,
+      "doctor": 3,
+      "scheduled_at": "2024-05-02T14:00:00Z",
+      "status": "completed",
+      "reason": "Follow-up on elevated cholesterol levels",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.appointment",
+    "pk": 3,
+    "fields": {
+      "patient": 10,
+      "doctor": 1,
+      "scheduled_at": "2024-06-15T10:00:00Z",
+      "status": "requested",
+      "reason": "New patient consultation for fatigue",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.appointment",
+    "pk": 4,
+    "fields": {
+      "patient": 11,
+      "doctor": 4,
+      "scheduled_at": "2024-05-20T11:15:00Z",
+      "status": "completed",
+      "reason": "Persistent eczema flare-up on arms",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.appointment",
+    "pk": 5,
+    "fields": {
+      "patient": 12,
+      "doctor": 5,
+      "scheduled_at": "2024-06-12T13:00:00Z",
+      "status": "checked_in",
+      "reason": "Annual wellness visit for son",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.appointment",
+    "pk": 6,
+    "fields": {
+      "patient": 13,
+      "doctor": 6,
+      "scheduled_at": "2024-05-28T15:30:00Z",
+      "status": "cancelled",
+      "reason": "Knee pain after soccer injury",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.appointment",
+    "pk": 7,
+    "fields": {
+      "patient": 14,
+      "doctor": 7,
+      "scheduled_at": "2024-06-18T16:00:00Z",
+      "status": "confirmed",
+      "reason": "Anxiety management session",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.appointment",
+    "pk": 8,
+    "fields": {
+      "patient": 1,
+      "doctor": 8,
+      "scheduled_at": "2024-04-22T09:00:00Z",
+      "status": "completed",
+      "reason": "Thyroid panel results discussion",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.visitnote",
+    "pk": 1,
+    "fields": {
+      "appointment": 1,
+      "doctor": 2,
+      "patient": 1,
+      "notes": "Vitals stable. Ordered routine labs. Advised increased physical activity and hydration.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.visitnote",
+    "pk": 2,
+    "fields": {
+      "doctor": 3,
+      "appointment": 2,
+      "patient": 1,
+      "notes": "Cholesterol improved with diet changes. Continue statin, recheck lipids in 6 months.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.visitnote",
+    "pk": 3,
+    "fields": {
+      "appointment": 3,
+      "doctor": 1,
+      "patient": 10,
+      "notes": "Reports ongoing fatigue, ordered CBC and thyroid panel to rule out causes.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.visitnote",
+    "pk": 4,
+    "fields": {
+      "appointment": 4,
+      "doctor": 4,
+      "patient": 11,
+      "notes": "Eczema improved with topical steroid. Recommended fragrance-free moisturizer daily.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.visitnote",
+    "pk": 5,
+    "fields": {
+      "appointment": 5,
+      "doctor": 5,
+      "patient": 12,
+      "notes": "Growth and development on track. Updated vaccination schedule discussed with parent.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.visitnote",
+    "pk": 6,
+    "fields": {
+      "appointment": 6,
+      "doctor": 6,
+      "patient": 13,
+      "notes": "MRI recommended to assess ligament damage prior to further treatment plan.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.visitnote",
+    "pk": 7,
+    "fields": {
+      "appointment": 7,
+      "doctor": 7,
+      "patient": 14,
+      "notes": "Patient reports reduced anxiety symptoms since starting sertraline. Continue dose.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.visitnote",
+    "pk": 8,
+    "fields": {
+      "appointment": 8,
+      "doctor": 8,
+      "patient": 1,
+      "notes": "TSH levels within normal range. Continue current levothyroxine dosage.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.prescription",
+    "pk": 1,
+    "fields": {
+      "appointment": 2,
+      "doctor": 3,
+      "patient": 1,
+      "medication": "Atorvastatin",
+      "dosage": "20mg once daily",
+      "instructions": "Take in the evening with food. Recheck lipid panel in 6 months.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.prescription",
+    "pk": 2,
+    "fields": {
+      "appointment": 8,
+      "doctor": 8,
+      "patient": 1,
+      "medication": "Levothyroxine",
+      "dosage": "75mcg once daily",
+      "instructions": "Take on empty stomach 30 minutes before breakfast.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.prescription",
+    "pk": 3,
+    "fields": {
+      "appointment": 3,
+      "doctor": 1,
+      "patient": 10,
+      "medication": "Ferrous Sulfate",
+      "dosage": "325mg twice daily",
+      "instructions": "Take with vitamin C for better absorption. Avoid dairy.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.prescription",
+    "pk": 4,
+    "fields": {
+      "appointment": 4,
+      "doctor": 4,
+      "patient": 11,
+      "medication": "Triamcinolone Cream 0.1%",
+      "dosage": "Apply thin layer twice daily",
+      "instructions": "Use only on affected areas, avoid face.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.prescription",
+    "pk": 5,
+    "fields": {
+      "appointment": 5,
+      "doctor": 5,
+      "patient": 12,
+      "medication": "Children's Multivitamin",
+      "dosage": "One chewable daily",
+      "instructions": "Give with breakfast to support nutrition.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.prescription",
+    "pk": 6,
+    "fields": {
+      "appointment": 6,
+      "doctor": 6,
+      "patient": 13,
+      "medication": "Ibuprofen",
+      "dosage": "400mg every 6 hours as needed",
+      "instructions": "Take with food to reduce stomach upset.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.prescription",
+    "pk": 7,
+    "fields": {
+      "appointment": 7,
+      "doctor": 7,
+      "patient": 14,
+      "medication": "Sertraline",
+      "dosage": "50mg once daily",
+      "instructions": "Continue current dose, follow up in 4 weeks.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.prescription",
+    "pk": 8,
+    "fields": {
+      "appointment": 1,
+      "doctor": 2,
+      "patient": 1,
+      "medication": "Multivitamin",
+      "dosage": "One tablet daily",
+      "instructions": "Take with breakfast for general wellness support.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.bill",
+    "pk": 1,
+    "fields": {
+      "patient": 1,
+      "appointment": 1,
+      "amount": "120.00",
+      "status": "unpaid",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.bill",
+    "pk": 2,
+    "fields": {
+      "patient": 1,
+      "appointment": 2,
+      "amount": "85.50",
+      "status": "paid",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.bill",
+    "pk": 3,
+    "fields": {
+      "patient": 10,
+      "appointment": 3,
+      "amount": "95.00",
+      "status": "unpaid",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.bill",
+    "pk": 4,
+    "fields": {
+      "patient": 11,
+      "appointment": 4,
+      "amount": "150.75",
+      "status": "paid",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.bill",
+    "pk": 5,
+    "fields": {
+      "patient": 12,
+      "appointment": 5,
+      "amount": "60.00",
+      "status": "paid",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.bill",
+    "pk": 6,
+    "fields": {
+      "patient": 13,
+      "appointment": 6,
+      "amount": "200.00",
+      "status": "unpaid",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.bill",
+    "pk": 7,
+    "fields": {
+      "patient": 14,
+      "appointment": 7,
+      "amount": "175.00",
+      "status": "paid",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.bill",
+    "pk": 8,
+    "fields": {
+      "patient": 1,
+      "appointment": 8,
+      "amount": "110.25",
+      "status": "paid",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.document",
+    "pk": 1,
+    "fields": {
+      "patient": 1,
+      "document_type": "insurance",
+      "file": "https://picsum.photos/seed/doc-insurance-1/400/400",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.document",
+    "pk": 2,
+    "fields": {
+      "patient": 1,
+      "document_type": "lab_result",
+      "file": "https://picsum.photos/seed/doc-labresult-2/400/400",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.document",
+    "pk": 3,
+    "fields": {
+      "patient": 10,
+      "document_type": "insurance",
+      "file": "https://picsum.photos/seed/doc-insurance-3/400/400",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.document",
+    "pk": 4,
+    "fields": {
+      "patient": 11,
+      "document_type": "lab_result",
+      "file": "https://picsum.photos/seed/doc-labresult-4/400/400",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.document",
+    "pk": 5,
+    "fields": {
+      "patient": 12,
+      "document_type": "other",
+      "file": "https://picsum.photos/seed/doc-other-5/400/400",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.document",
+    "pk": 6,
+    "fields": {
+      "patient": 13,
+      "document_type": "lab_result",
+      "file": "https://picsum.photos/seed/doc-labresult-6/400/400",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.document",
+    "pk": 7,
+    "fields": {
+      "patient": 14,
+      "document_type": "insurance",
+      "file": "https://picsum.photos/seed/doc-insurance-7/400/400",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.document",
+    "pk": 8,
+    "fields": {
+      "patient": 1,
+      "document_type": "other",
+      "file": "https://picsum.photos/seed/doc-other-8/400/400",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  }
+]
